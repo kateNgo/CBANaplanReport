@@ -1,0 +1,13 @@
+{
+"naplanUsers": [{
+                "username": "phuongngovn@yahoo.com",
+                "password": "123456",
+                },{
+                "username": "ken.ko@cba.com.au",
+                "password": "7890",
+                },{
+                "username": "benduong@gmail.com",
+                "password": "123456",
+                }
+]
+}

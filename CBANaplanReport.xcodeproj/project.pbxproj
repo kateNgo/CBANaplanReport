@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58695AD27A5B30C75FC2134C /* Pods_CBANaplanReport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B8C0FCF6F95A6095D3C4B4 /* Pods_CBANaplanReport.framework */; };
+		646935211ECD4DF400A6A3F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646935201ECD4DF400A6A3F6 /* AppDelegate.swift */; };
+		646935261ECD4DF400A6A3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646935241ECD4DF400A6A3F6 /* Main.storyboard */; };
+		646935291ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 646935271ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodeld */; };
+		6469352B1ECD4DF400A6A3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6469352A1ECD4DF400A6A3F6 /* Assets.xcassets */; };
+		6469352E1ECD4DF400A6A3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6469352C1ECD4DF400A6A3F6 /* LaunchScreen.storyboard */; };
+		646935371ECD4E0700A6A3F6 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 646935361ECD4E0700A6A3F6 /* background.png */; };
+		64C5BCA11ED3F834000FBC9E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BC9E1ED3F834000FBC9E /* DashboardViewController.swift */; };
+		64C5BCA21ED3F834000FBC9E /* LogonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BC9F1ED3F834000FBC9E /* LogonViewController.swift */; };
+		64C5BCA31ED3F834000FBC9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA01ED3F834000FBC9E /* ViewController.swift */; };
+		64C5BCAB1ED3F852000FBC9E /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA41ED3F852000FBC9E /* JSON.swift */; };
+		64C5BCAC1ED3F852000FBC9E /* NaplanUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA51ED3F852000FBC9E /* NaplanUser.swift */; };
+		64C5BCAD1ED3F852000FBC9E /* NaplanUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA61ED3F852000FBC9E /* NaplanUserManager.swift */; };
+		64C5BCAE1ED3F852000FBC9E /* NaplanUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA71ED3F852000FBC9E /* NaplanUserService.swift */; };
+		64C5BCAF1ED3F852000FBC9E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA81ED3F852000FBC9E /* Result.swift */; };
+		64C5BCB01ED3F852000FBC9E /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA91ED3F852000FBC9E /* ServiceHelper.swift */; };
+		64C5BCB11ED3F852000FBC9E /* ServiceURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCAA1ED3F852000FBC9E /* ServiceURLs.swift */; };
+		64E84C401ED40117000677F1 /* GetNaplanUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = 64E84C3D1ED40117000677F1 /* GetNaplanUsers.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F26702CCB0DCBEC01E8E899 /* Pods-CBANaplanReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBANaplanReport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBANaplanReport/Pods-CBANaplanReport.debug.xcconfig"; sourceTree = "<group>"; };
+		6469351D1ECD4DF400A6A3F6 /* CBANaplanReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBANaplanReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		646935201ECD4DF400A6A3F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		646935251ECD4DF400A6A3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		646935281ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CBANaplanReport.xcdatamodel; sourceTree = "<group>"; };
+		6469352A1ECD4DF400A6A3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6469352D1ECD4DF400A6A3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6469352F1ECD4DF400A6A3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646935361ECD4E0700A6A3F6 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../images/background.png; sourceTree = "<group>"; };
+		64C5BC9E1ED3F834000FBC9E /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardViewController.swift; path = controller/DashboardViewController.swift; sourceTree = "<group>"; };
+		64C5BC9F1ED3F834000FBC9E /* LogonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogonViewController.swift; path = controller/LogonViewController.swift; sourceTree = "<group>"; };
+		64C5BCA01ED3F834000FBC9E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = controller/ViewController.swift; sourceTree = "<group>"; };
+		64C5BCA41ED3F852000FBC9E /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = model/JSON.swift; sourceTree = "<group>"; };
+		64C5BCA51ED3F852000FBC9E /* NaplanUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaplanUser.swift; path = model/NaplanUser.swift; sourceTree = "<group>"; };
+		64C5BCA61ED3F852000FBC9E /* NaplanUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaplanUserManager.swift; path = model/NaplanUserManager.swift; sourceTree = "<group>"; };
+		64C5BCA71ED3F852000FBC9E /* NaplanUserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaplanUserService.swift; path = model/NaplanUserService.swift; sourceTree = "<group>"; };
+		64C5BCA81ED3F852000FBC9E /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = model/Result.swift; sourceTree = "<group>"; };
+		64C5BCA91ED3F852000FBC9E /* ServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceHelper.swift; path = model/ServiceHelper.swift; sourceTree = "<group>"; };
+		64C5BCAA1ED3F852000FBC9E /* ServiceURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceURLs.swift; path = model/ServiceURLs.swift; sourceTree = "<group>"; };
+		64E84C3D1ED40117000677F1 /* GetNaplanUsers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetNaplanUsers.json; sourceTree = "<group>"; };
+		99B8C0FCF6F95A6095D3C4B4 /* Pods_CBANaplanReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBANaplanReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99A90A79B47126EBB55C814 /* Pods-CBANaplanReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBANaplanReport.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBANaplanReport/Pods-CBANaplanReport.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6469351A1ECD4DF400A6A3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58695AD27A5B30C75FC2134C /* Pods_CBANaplanReport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51417547527A290E79EA28A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99B8C0FCF6F95A6095D3C4B4 /* Pods_CBANaplanReport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		646935141ECD4DF400A6A3F6 = {
+			isa = PBXGroup;
+			children = (
+				6469351F1ECD4DF400A6A3F6 /* CBANaplanReport */,
+				6469351E1ECD4DF400A6A3F6 /* Products */,
+				92D24FAD17D10494137F79CE /* Pods */,
+				51417547527A290E79EA28A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6469351E1ECD4DF400A6A3F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6469351D1ECD4DF400A6A3F6 /* CBANaplanReport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6469351F1ECD4DF400A6A3F6 /* CBANaplanReport */ = {
+			isa = PBXGroup;
+			children = (
+				64E84C431ED4040A000677F1 /* support */,
+				64E84C3C1ED40117000677F1 /* MockResponses */,
+				64C5BC8D1ED3EE81000FBC9E /* Controller */,
+				64C5BC7C1ED3E44B000FBC9E /* Model */,
+				646935351ECD4DFC00A6A3F6 /* images */,
+				6469352A1ECD4DF400A6A3F6 /* Assets.xcassets */,
+				646935271ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodeld */,
+			);
+			path = CBANaplanReport;
+			sourceTree = "<group>";
+		};
+		646935351ECD4DFC00A6A3F6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				646935361ECD4E0700A6A3F6 /* background.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		64C5BC7C1ED3E44B000FBC9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64C5BCA41ED3F852000FBC9E /* JSON.swift */,
+				64C5BCA51ED3F852000FBC9E /* NaplanUser.swift */,
+				64C5BCA61ED3F852000FBC9E /* NaplanUserManager.swift */,
+				64C5BCA71ED3F852000FBC9E /* NaplanUserService.swift */,
+				64C5BCA81ED3F852000FBC9E /* Result.swift */,
+				64C5BCA91ED3F852000FBC9E /* ServiceHelper.swift */,
+				64C5BCAA1ED3F852000FBC9E /* ServiceURLs.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		64C5BC8D1ED3EE81000FBC9E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64C5BC9E1ED3F834000FBC9E /* DashboardViewController.swift */,
+				64C5BC9F1ED3F834000FBC9E /* LogonViewController.swift */,
+				64C5BCA01ED3F834000FBC9E /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		64E84C3C1ED40117000677F1 /* MockResponses */ = {
+			isa = PBXGroup;
+			children = (
+				64E84C3D1ED40117000677F1 /* GetNaplanUsers.json */,
+			);
+			path = MockResponses;
+			sourceTree = "<group>";
+		};
+		64E84C431ED4040A000677F1 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				646935201ECD4DF400A6A3F6 /* AppDelegate.swift */,
+				646935241ECD4DF400A6A3F6 /* Main.storyboard */,
+				6469352C1ECD4DF400A6A3F6 /* LaunchScreen.storyboard */,
+				6469352F1ECD4DF400A6A3F6 /* Info.plist */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		92D24FAD17D10494137F79CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F26702CCB0DCBEC01E8E899 /* Pods-CBANaplanReport.debug.xcconfig */,
+				B99A90A79B47126EBB55C814 /* Pods-CBANaplanReport.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6469351C1ECD4DF400A6A3F6 /* CBANaplanReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 646935321ECD4DF400A6A3F6 /* Build configuration list for PBXNativeTarget "CBANaplanReport" */;
+			buildPhases = (
+				04B9EC0E3408580167E829B0 /* [CP] Check Pods Manifest.lock */,
+				646935191ECD4DF400A6A3F6 /* Sources */,
+				6469351A1ECD4DF400A6A3F6 /* Frameworks */,
+				6469351B1ECD4DF400A6A3F6 /* Resources */,
+				86E68EA532480A93233B8D1A /* [CP] Embed Pods Frameworks */,
+				1B5D2E539CD45C58C185A4DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBANaplanReport;
+			productName = CBANaplanReport;
+			productReference = 6469351D1ECD4DF400A6A3F6 /* CBANaplanReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		646935151ECD4DF400A6A3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ppben;
+				TargetAttributes = {
+					6469351C1ECD4DF400A6A3F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4JKMHZJJZP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 646935181ECD4DF400A6A3F6 /* Build configuration list for PBXProject "CBANaplanReport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 646935141ECD4DF400A6A3F6;
+			productRefGroup = 6469351E1ECD4DF400A6A3F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6469351C1ECD4DF400A6A3F6 /* CBANaplanReport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6469351B1ECD4DF400A6A3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6469352E1ECD4DF400A6A3F6 /* LaunchScreen.storyboard in Resources */,
+				646935371ECD4E0700A6A3F6 /* background.png in Resources */,
+				64E84C401ED40117000677F1 /* GetNaplanUsers.json in Resources */,
+				6469352B1ECD4DF400A6A3F6 /* Assets.xcassets in Resources */,
+				646935261ECD4DF400A6A3F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B9EC0E3408580167E829B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1B5D2E539CD45C58C185A4DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBANaplanReport/Pods-CBANaplanReport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E68EA532480A93233B8D1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBANaplanReport/Pods-CBANaplanReport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		646935191ECD4DF400A6A3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C5BCAD1ED3F852000FBC9E /* NaplanUserManager.swift in Sources */,
+				64C5BCAB1ED3F852000FBC9E /* JSON.swift in Sources */,
+				646935291ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodeld in Sources */,
+				64C5BCA21ED3F834000FBC9E /* LogonViewController.swift in Sources */,
+				64C5BCAC1ED3F852000FBC9E /* NaplanUser.swift in Sources */,
+				64C5BCA31ED3F834000FBC9E /* ViewController.swift in Sources */,
+				646935211ECD4DF400A6A3F6 /* AppDelegate.swift in Sources */,
+				64C5BCAE1ED3F852000FBC9E /* NaplanUserService.swift in Sources */,
+				64C5BCA11ED3F834000FBC9E /* DashboardViewController.swift in Sources */,
+				64C5BCAF1ED3F852000FBC9E /* Result.swift in Sources */,
+				64C5BCB01ED3F852000FBC9E /* ServiceHelper.swift in Sources */,
+				64C5BCB11ED3F852000FBC9E /* ServiceURLs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		646935241ECD4DF400A6A3F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				646935251ECD4DF400A6A3F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6469352C1ECD4DF400A6A3F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6469352D1ECD4DF400A6A3F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		646935301ECD4DF400A6A3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		646935311ECD4DF400A6A3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		646935331ECD4DF400A6A3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F26702CCB0DCBEC01E8E899 /* Pods-CBANaplanReport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4JKMHZJJZP;
+				INFOPLIST_FILE = CBANaplanReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ppben.CBANaplanReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		646935341ECD4DF400A6A3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99A90A79B47126EBB55C814 /* Pods-CBANaplanReport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4JKMHZJJZP;
+				INFOPLIST_FILE = CBANaplanReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ppben.CBANaplanReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		646935181ECD4DF400A6A3F6 /* Build configuration list for PBXProject "CBANaplanReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646935301ECD4DF400A6A3F6 /* Debug */,
+				646935311ECD4DF400A6A3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646935321ECD4DF400A6A3F6 /* Build configuration list for PBXNativeTarget "CBANaplanReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646935331ECD4DF400A6A3F6 /* Debug */,
+				646935341ECD4DF400A6A3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		646935271ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				646935281ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodel */,
+			);
+			currentVersion = 646935281ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodel */;
+			path = CBANaplanReport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 646935151ECD4DF400A6A3F6 /* Project object */;
+}
