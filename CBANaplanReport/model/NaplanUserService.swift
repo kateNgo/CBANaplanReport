@@ -14,41 +14,20 @@ class NaplanUserService {
     init(serviceHelper: ServiceHelper = ServiceHelperFactory.makeServiceHelper()){
         self.serviceHelper = serviceHelper
     }
-    func getNaplanUsers(completion: @escaping (Result<[NaplanUser], ServiceError>) -> Void) {
-        serviceHelper.request(urlString: ServiceURLs.getUsers.rawValue, param: nil) { result in
+    func logon(withUsername username:String, andPassword password: String, completion: @escaping (Result<Bool, ServiceError>) -> Void) {
+        serviceHelper.request(urlString: ServiceURLs.login.rawValue, param: username) { result in
             switch result {
             case .success(let json):
-                let naplanUsers = NaplanUser.naplanUserList(json: json)
-                completion(.success(naplanUsers))
+                guard let ok = json["result"] as? Bool else {
+                    completion(.failure(.general))
+                    return
+                }
+                completion(.success(ok))
             case .failure(let error):
                 completion(.failure(error))
             }
         }
     }
-    /*
-    func logon(naplanUser: NaplanUser, completion: (Bool) -> Void ){
-        serviceHelper.request(urlString: ServiceURLs.getUsers.rawValue, param: nil) { result in
-            switch result {
-            case .success(let json):
-                let naplanUsers = NaplanUser.naplanUserList(json: json)
-                completion(.success(naplanUsers))
-            case .failure(let error):
-                completion(.failure(error))
-            }
-        }
-    }
- 
-    func logon(userName:String , password:String, handler: (Bool) -> Void) {
-        if userName == "phuong" && password == "phuong" {
-            handler(true)
-        }
-        handler(false)
-    }
- */
- 
-    
-    
-    
-    
-
 }
+
+

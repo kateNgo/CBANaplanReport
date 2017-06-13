@@ -14,22 +14,14 @@ class NaplanUserManager {
     init(naplanUserService: NaplanUserService = NaplanUserService()) {
         self.naplanUserService = naplanUserService
     }
-    func getNaplanUsers(completion: @escaping (Result<[NaplanUser], ServiceError>) -> Void) {
-        naplanUserService.getNaplanUsers{ result in
+    func logon(username:String, password:String, handler: @escaping (Bool) -> Void) {
+        naplanUserService.logon(withUsername: username, andPassword: password){ result in
             switch result {
-            case .success(let naplanUsers):
-                completion(.success(naplanUsers))
-            case .failure(let error):
-                completion(.failure(error))
+            case .success(let result):
+                handler(result)
+            case .failure:
+                handler(false)
             }
-            
         }
     }
-    func logon(userName:String , password:String, handler: (Bool) -> Void) {
-        if userName == "phuong" && password == "phuong" {
-            handler(true)
-        }
-        handler(false)
-    }
-   
 }

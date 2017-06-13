@@ -8,73 +8,74 @@
 
 import UIKit
 
-class LogonViewController: UIViewController {
+class LogonViewController: UIViewController , UITextFieldDelegate{
 
     @IBOutlet var passwordTextField: UITextField!
+    @IBOutlet var loginButton: UIButton!
+    @IBOutlet var errorLabel: UILabel!
     @IBOutlet var usernameTextField: UITextField!
     fileprivate lazy var naplanUserManager: NaplanUserManager = NaplanUserManager()
     fileprivate var naplanUsers: [NaplanUser]?
-    
-    //private var naplanService: NaplanService = NaplanService()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        naplanUserManager.getNaplanUsers{ [weak self] result in
-            guard let this = self else { return }
-            switch result {
-            case .success(let naplanUsers):
-                this.naplanUsers = naplanUsers
-            case .failure:
-                print("Some thing wrong")
-            }
-            print("ssssss")
-            
-        }
+        settupInterface()
     }
 
+    override func viewDidDisappear(_ animated: Bool) {
+        self.errorLabel.text = ""
+    }
     
-    @IBAction func logonHanlder(_ sender: Any) {
-
-        if passwordTextField.text == "" || usernameTextField.text == "" {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.usernameTextField.resignFirstResponder()
+        self.passwordTextField.resignFirstResponder()
+    }
+    
+    @IBAction func logonHandler(_ sender: UIButton) {
+        guard let username =  usernameTextField.text , let password = passwordTextField.text else {
             return
         }
-        // do validation
-        /*
-        naplanService.logon(userName: usernameTF.text!, password: passwordTextField.text!) { success in
+        naplanUserManager.logon(username: username, password: password ) { success in
             if success {
-                performSegue(withIdentifier: "dashboardSegue", sender: self)
+                self.loginDone()
             } else {
-                // show some alert
-                // UIAlertController
-          
-    }
+                self.errorLabel.text = "Wrong username or password. Try again!"
+            }
         }
- */
-    
     }
     
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-        
-        
-    }
-    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        if passwordTextField.text == "" || usernameTextField.text == "" {
-                return false
-        }
-        //if naplanService.logon(userName: usernameTF.text!, password: passwordTextField.text!) {
-        //    return true
-        //}
-        // display error logon
-        return false
+    func loginDone()
+    {
+        self.errorLabel.text = ""
+        self.passwordTextField.text = ""
+        self.usernameTextField.text = ""
+       self.performSegue(withIdentifier: "gotoReport", sender: self)
     }
     
-
+    @IBAction func unwindToLogon(_ segue: UIStoryboardSegue) {
+    }
     
-
+    // MARK: - UITextFieldDelegate
+    private enum status{
+        static let hasFocus = UIColor.cyan
+        static let lostFocus = UIColor.white
+    }
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.backgroundColor = status.hasFocus
+        textField.becomeFirstResponder()
+    }
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        textField.backgroundColor = status.lostFocus
+        textField.resignFirstResponder()
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    private func settupInterface(){
+        usernameTextField.delegate = self
+        passwordTextField.delegate = self
+        self.errorLabel.text = ""
+        loginButton.dressForContinueButton()
+    }
 }

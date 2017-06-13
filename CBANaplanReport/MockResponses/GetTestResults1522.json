@@ -1,0 +1,112 @@
+{
+    "testResults": [{
+                    "studentId": "1522",
+                    "year":9,
+                    "subject": "Reading",
+                    "score":416.5
+                    },
+                    {
+                    "studentId": "1522",
+                    "year":9,
+                    "subject": "Writing",
+                    "score":450.0
+                    },{
+                    "studentId": "1522",
+                    "year":9,
+                    "subject": "Spelling",
+                    "score":420
+                    },{
+                    "studentId": "1522",
+                    "year":9,
+                    "subject": "Grammar & Punctuation",
+                    "score":405.5
+                    },{
+                    "studentId": "1522",
+                    "year":9,
+                    "subject": "Numeracy",
+                    "score":410
+                    },{
+                    "studentId": "1522",
+                    "year":9,
+                    "subject": "Data, Measurement, Space & Geometry",
+                    "score":370
+                    },{
+                    "studentId": "1522",
+                    "year":9,
+                    "subject": "Number, Patterns & Algebra",
+                    "score":400
+                    },{
+                    "studentId": "1522",
+                    "year":7,
+                    "subject": "Reading",
+                    "score":450.5
+                    },
+                    {
+                    "studentId": "1522",
+                    "year":7,
+                    "subject": "Writing",
+                    "score":419.0
+                    },{
+                    "studentId": "1522",
+                    "year":7,
+                    "subject": "Spelling",
+                    "score":490
+                    },{
+                    "studentId": "1522",
+                    "year":7,
+                    "subject": "Grammar & Punctuation",
+                    "score":305.5
+                    },{
+                    "studentId": "1522",
+                    "year":7,
+                    "subject": "Numeracy",
+                    "score":320
+                    },{
+                    "studentId": "1522",
+                    "year":7,
+                    "subject": "Data, Measurement, Space & Geometry",
+                    "score":500
+                    },{
+                    "studentId": "1522",
+                    "year":7,
+                    "subject": "Number, Patterns & Algebra",
+                    "score":600
+                },{
+                "studentId": "1522",
+                "year":5,
+                "subject": "Reading",
+                "score":386
+                },
+                {
+                "studentId": "1522",
+                "year":5,
+                "subject": "Writing",
+                "score":520
+                },{
+                "studentId": "1522",
+                "year":5,
+                "subject": "Spelling",
+                "score":580
+                },{
+                "studentId": "1522",
+                "year": 5,
+                "subject": "Grammar & Punctuation",
+                "score":580
+                },{
+                "studentId": "1522",
+                "year":5,
+                "subject": "Numeracy",
+                "score":610
+                },{
+                "studentId": "1522",
+                "year":5,
+                "subject": "Data, Measurement, Space & Geometry",
+                "score":520
+                },{
+                "studentId": "1522",
+                "year":5,
+                "subject": "Number, Patterns & Algebra",
+                "score":430
+                }
+]}
+

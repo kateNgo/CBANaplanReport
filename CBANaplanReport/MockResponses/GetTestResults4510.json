@@ -1,0 +1,76 @@
+{
+"testResults": [{
+                    "studentId": "4510",
+                    "year":7,
+                    "subject": "Reading",
+                    "score":456.5
+                    },
+                    {
+                    "studentId": "4510",
+                    "year":7,
+                    "subject": "Writing",
+                    "score":400.0
+                    },{
+                    "studentId": "4510",
+                    "year":7,
+                    "subject": "Spelling",
+                    "score":460
+                    },{
+                    "studentId": "4510",
+                    "year":7,
+                    "subject": "Grammar & Punctuation",
+                    "score":435.5
+                    },{
+                    "studentId": "4510",
+                    "year":7,
+                    "subject": "Numeracy",
+                    "score":450
+                    },{
+                    "studentId": "4510",
+                    "year":7,
+                    "subject": "Data, Measurement, Space & Geometry",
+                    "score":470
+                    },{
+                    "studentId": "4510",
+                    "year":7,
+                    "subject": "Number, Patterns & Algebra",
+                    "score":500
+                },{
+                "studentId": "4510",
+                "year":5,
+                "subject": "Reading",
+                "score":356
+                },
+                {
+                "studentId": "4510",
+                "year":5,
+                "subject": "Writing",
+                "score":420
+                },{
+                "studentId": "4510",
+                "year":5,
+                "subject": "Spelling",
+                "score":480
+                },{
+                "studentId": "4510",
+                "year": 5,
+                "subject": "Grammar & Punctuation",
+                "score":480
+                },{
+                "studentId": "4510",
+                "year":5,
+                "subject": "Numeracy",
+                "score":440
+                },{
+                "studentId": "4510",
+                "year":5,
+                "subject": "Data, Measurement, Space & Geometry",
+                "score":400
+                },{
+                "studentId": "4510",
+                "year":5,
+                "subject": "Number, Patterns & Algebra",
+                "score":460
+                }
+]}
+

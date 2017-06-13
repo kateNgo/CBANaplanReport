@@ -10,7 +10,7 @@ import Foundation
 
 struct NaplanUser {
     
-    private enum JSONKeys{
+    private enum JSONKeys {
         static let username = "username"
         static let password = "password"
         static let naplanUsers = "naplanUsers"

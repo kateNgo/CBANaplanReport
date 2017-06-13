@@ -1,0 +1,40 @@
+{
+"testResults": [{
+                "studentId": "2018",
+                "year":5,
+                "subject": "Reading",
+                "score":316
+                },
+                {
+                "studentId": "2018",
+                "year":5,
+                "subject": "Writing",
+                "score":420
+                },{
+                "studentId": "2018",
+                "year":5,
+                "subject": "Spelling",
+                "score":490
+                },{
+                "studentId": "2018",
+                "year": 5,
+                "subject": "Grammar & Punctuation",
+                "score":430
+                },{
+                "studentId": "2018",
+                "year":5,
+                "subject": "Numeracy",
+                "score":440
+                },{
+                "studentId": "2018",
+                "year":5,
+                "subject": "Data, Measurement, Space & Geometry",
+                "score":330
+                },{
+                "studentId": "2018",
+                "year":5,
+                "subject": "Number, Patterns & Algebra",
+                "score":540
+                }
+]}
+

@@ -8,48 +8,181 @@
 
 /* Begin PBXBuildFile section */
 		58695AD27A5B30C75FC2134C /* Pods_CBANaplanReport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B8C0FCF6F95A6095D3C4B4 /* Pods_CBANaplanReport.framework */; };
+		6405CC221EE6728600F7BF46 /* GetTestResults2013.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC091EE6728600F7BF46 /* GetTestResults2013.json */; };
+		6405CC231EE6728600F7BF46 /* GetTestResults2014.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC0A1EE6728600F7BF46 /* GetTestResults2014.json */; };
+		6405CC241EE6728600F7BF46 /* GetTestResults2015.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC0B1EE6728600F7BF46 /* GetTestResults2015.json */; };
+		6405CC251EE6728600F7BF46 /* GetTestResults2016.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC0C1EE6728600F7BF46 /* GetTestResults2016.json */; };
+		6405CC261EE6728600F7BF46 /* GetTestResults2017.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC0D1EE6728600F7BF46 /* GetTestResults2017.json */; };
+		6405CC271EE6728600F7BF46 /* GetTestResults2018.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC0E1EE6728600F7BF46 /* GetTestResults2018.json */; };
+		6405CC281EE6728600F7BF46 /* GetTestResults2019.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC0F1EE6728600F7BF46 /* GetTestResults2019.json */; };
+		6405CC291EE6728600F7BF46 /* GetTestResults2020.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC101EE6728600F7BF46 /* GetTestResults2020.json */; };
+		6405CC2A1EE6728600F7BF46 /* GetTestResults2021.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC111EE6728600F7BF46 /* GetTestResults2021.json */; };
+		6405CC2B1EE6728600F7BF46 /* GetTestResults2022.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC121EE6728600F7BF46 /* GetTestResults2022.json */; };
+		6405CC2C1EE6728600F7BF46 /* GetTestResults2023.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC131EE6728600F7BF46 /* GetTestResults2023.json */; };
+		6405CC2D1EE6728600F7BF46 /* GetTestResults2024.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC141EE6728600F7BF46 /* GetTestResults2024.json */; };
+		6405CC2E1EE6728600F7BF46 /* GetTestResults2025.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC151EE6728600F7BF46 /* GetTestResults2025.json */; };
+		6405CC2F1EE6728600F7BF46 /* GetTestResults2026.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC161EE6728600F7BF46 /* GetTestResults2026.json */; };
+		6405CC301EE6728600F7BF46 /* GetTestResults2027.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC171EE6728600F7BF46 /* GetTestResults2027.json */; };
+		6405CC311EE6728600F7BF46 /* GetTestResults2028.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC181EE6728600F7BF46 /* GetTestResults2028.json */; };
+		6405CC321EE6728600F7BF46 /* GetTestResults2029.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC191EE6728600F7BF46 /* GetTestResults2029.json */; };
+		6405CC331EE6728600F7BF46 /* GetTestResults2030.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC1A1EE6728600F7BF46 /* GetTestResults2030.json */; };
+		6405CC341EE6728600F7BF46 /* GetTestResults2031.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC1B1EE6728600F7BF46 /* GetTestResults2031.json */; };
+		6405CC351EE6728600F7BF46 /* GetTestResults2032.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC1C1EE6728600F7BF46 /* GetTestResults2032.json */; };
+		6405CC361EE6728600F7BF46 /* GetTestResults2033.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC1D1EE6728600F7BF46 /* GetTestResults2033.json */; };
+		6405CC371EE6728600F7BF46 /* GetTestResults2034.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC1E1EE6728600F7BF46 /* GetTestResults2034.json */; };
+		6405CC381EE6728600F7BF46 /* GetTestResults2035.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC1F1EE6728600F7BF46 /* GetTestResults2035.json */; };
+		6405CC391EE6728600F7BF46 /* GetTestResults2036.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC201EE6728600F7BF46 /* GetTestResults2036.json */; };
+		6405CC3A1EE6728600F7BF46 /* GetTestResults2037.json in Resources */ = {isa = PBXBuildFile; fileRef = 6405CC211EE6728600F7BF46 /* GetTestResults2037.json */; };
+		64087D3E1EE2E91E0056EE74 /* DiagnosticsBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64087D3D1EE2E91E0056EE74 /* DiagnosticsBaseViewController.swift */; };
+		64087D401EE2F9DA0056EE74 /* NaplanReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64087D3F1EE2F9DA0056EE74 /* NaplanReportViewController.swift */; };
+		64127E681ED5A50C00E71747 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64127E671ED5A50C00E71747 /* StudentTableViewCell.swift */; };
+		64239C081EDCBC0300E32B4A /* NaplanUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64239C071EDCBC0300E32B4A /* NaplanUIView.swift */; };
+		6429C8711ED5013100F3269C /* GetStudents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6429C86F1ED5013100F3269C /* GetStudents.json */; };
+		6429C8721ED5013100F3269C /* GetTestResults4510.json in Resources */ = {isa = PBXBuildFile; fileRef = 6429C8701ED5013100F3269C /* GetTestResults4510.json */; };
+		6430916C1EE27B61004E8C92 /* ReportByStudentResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430916B1EE27B61004E8C92 /* ReportByStudentResultTableViewCell.swift */; };
+		64527CCC1EE5112300489D7B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64527CCA1EE5112300489D7B /* Launch Screen.storyboard */; };
 		646935211ECD4DF400A6A3F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646935201ECD4DF400A6A3F6 /* AppDelegate.swift */; };
-		646935261ECD4DF400A6A3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646935241ECD4DF400A6A3F6 /* Main.storyboard */; };
 		646935291ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 646935271ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodeld */; };
 		6469352B1ECD4DF400A6A3F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6469352A1ECD4DF400A6A3F6 /* Assets.xcassets */; };
-		6469352E1ECD4DF400A6A3F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6469352C1ECD4DF400A6A3F6 /* LaunchScreen.storyboard */; };
-		646935371ECD4E0700A6A3F6 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 646935361ECD4E0700A6A3F6 /* background.png */; };
-		64C5BCA11ED3F834000FBC9E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BC9E1ED3F834000FBC9E /* DashboardViewController.swift */; };
-		64C5BCA21ED3F834000FBC9E /* LogonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BC9F1ED3F834000FBC9E /* LogonViewController.swift */; };
-		64C5BCA31ED3F834000FBC9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA01ED3F834000FBC9E /* ViewController.swift */; };
-		64C5BCAB1ED3F852000FBC9E /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA41ED3F852000FBC9E /* JSON.swift */; };
+		6477DB121EE83D1600AA1220 /* Loginphuong.json in Resources */ = {isa = PBXBuildFile; fileRef = 6477DB111EE83D1600AA1220 /* Loginphuong.json */; };
+		6477DB141EE8429B00AA1220 /* Loginalice.json in Resources */ = {isa = PBXBuildFile; fileRef = 6477DB131EE8429B00AA1220 /* Loginalice.json */; };
+		649799441EE59F7F00AB0471 /* NaplanSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649799431EE59F7F00AB0471 /* NaplanSplitViewController.swift */; };
+		64A3B17A1EDCF41900D624FB /* GetTestResults1520.json in Resources */ = {isa = PBXBuildFile; fileRef = 64A3B1751EDCF41900D624FB /* GetTestResults1520.json */; };
+		64A3B17B1EDCF41900D624FB /* GetTestResults1521.json in Resources */ = {isa = PBXBuildFile; fileRef = 64A3B1761EDCF41900D624FB /* GetTestResults1521.json */; };
+		64A3B17C1EDCF41900D624FB /* GetTestResults1522.json in Resources */ = {isa = PBXBuildFile; fileRef = 64A3B1771EDCF41900D624FB /* GetTestResults1522.json */; };
+		64A3B17D1EDCF41900D624FB /* GetTestResults1523.json in Resources */ = {isa = PBXBuildFile; fileRef = 64A3B1781EDCF41900D624FB /* GetTestResults1523.json */; };
+		64A3B17E1EDCF41900D624FB /* GetTestResults1524.json in Resources */ = {isa = PBXBuildFile; fileRef = 64A3B1791EDCF41900D624FB /* GetTestResults1524.json */; };
+		64A3B1B51EDF922000D624FB /* DiagnosticsByStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1AA1EDF922000D624FB /* DiagnosticsByStudentViewController.swift */; };
+		64A3B1B61EDF922000D624FB /* DiagnosticsReportBySubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1AB1EDF922000D624FB /* DiagnosticsReportBySubjectViewController.swift */; };
+		64A3B1B71EDF922000D624FB /* GradeYearTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1AC1EDF922000D624FB /* GradeYearTableViewController.swift */; };
+		64A3B1B81EDF922000D624FB /* LogonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1AD1EDF922000D624FB /* LogonViewController.swift */; };
+		64A3B1BA1EDF922000D624FB /* ReportByStudentResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1AF1EDF922000D624FB /* ReportByStudentResultViewController.swift */; };
+		64A3B1BB1EDF922000D624FB /* ReportByStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1B01EDF922000D624FB /* ReportByStudentViewController.swift */; };
+		64A3B1BC1EDF922000D624FB /* ReportBySubjectResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1B11EDF922000D624FB /* ReportBySubjectResultTableViewController.swift */; };
+		64A3B1BD1EDF922000D624FB /* ReportBySubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1B21EDF922000D624FB /* ReportBySubjectViewController.swift */; };
+		64A3B1BE1EDF922000D624FB /* StudentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1B31EDF922000D624FB /* StudentListViewController.swift */; };
+		64A3B1BF1EDF922000D624FB /* SubjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1B41EDF922000D624FB /* SubjectTableViewController.swift */; };
+		64A3B1C21EDF923A00D624FB /* GradeYearTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1C01EDF923A00D624FB /* GradeYearTableViewCell.swift */; };
+		64A3B1C81EDF926600D624FB /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1C41EDF926600D624FB /* Student.swift */; };
+		64A3B1C91EDF926600D624FB /* StudentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1C51EDF926600D624FB /* StudentManager.swift */; };
+		64A3B1CA1EDF926600D624FB /* StudentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1C61EDF926600D624FB /* StudentService.swift */; };
+		64A3B1CB1EDF926600D624FB /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3B1C71EDF926600D624FB /* TestResult.swift */; };
+		64A3B1D11EE2763E00D624FB /* GetTestResults2010.json in Resources */ = {isa = PBXBuildFile; fileRef = 64A3B1CE1EE2763E00D624FB /* GetTestResults2010.json */; };
+		64A3B1D21EE2763E00D624FB /* GetTestResults2011.json in Resources */ = {isa = PBXBuildFile; fileRef = 64A3B1CF1EE2763E00D624FB /* GetTestResults2011.json */; };
+		64A3B1D31EE2763E00D624FB /* GetTestResults2012.json in Resources */ = {isa = PBXBuildFile; fileRef = 64A3B1D01EE2763E00D624FB /* GetTestResults2012.json */; };
+		64BDB3F11ED9EE3C001F9317 /* SubjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDB3F01ED9EE3C001F9317 /* SubjectTableViewCell.swift */; };
+		64BDB3F41ED9F505001F9317 /* ReportBySubjectResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDB3F31ED9F505001F9317 /* ReportBySubjectResultTableViewCell.swift */; };
+		64BDB3FA1EDBC472001F9317 /* GetTestResults4512.json in Resources */ = {isa = PBXBuildFile; fileRef = 64BDB3F81EDBC472001F9317 /* GetTestResults4512.json */; };
+		64BDB3FB1EDBC472001F9317 /* GetTestResults4513.json in Resources */ = {isa = PBXBuildFile; fileRef = 64BDB3F91EDBC472001F9317 /* GetTestResults4513.json */; };
 		64C5BCAC1ED3F852000FBC9E /* NaplanUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA51ED3F852000FBC9E /* NaplanUser.swift */; };
 		64C5BCAD1ED3F852000FBC9E /* NaplanUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA61ED3F852000FBC9E /* NaplanUserManager.swift */; };
 		64C5BCAE1ED3F852000FBC9E /* NaplanUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA71ED3F852000FBC9E /* NaplanUserService.swift */; };
-		64C5BCAF1ED3F852000FBC9E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA81ED3F852000FBC9E /* Result.swift */; };
 		64C5BCB01ED3F852000FBC9E /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCA91ED3F852000FBC9E /* ServiceHelper.swift */; };
-		64C5BCB11ED3F852000FBC9E /* ServiceURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5BCAA1ED3F852000FBC9E /* ServiceURLs.swift */; };
-		64E84C401ED40117000677F1 /* GetNaplanUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = 64E84C3D1ED40117000677F1 /* GetNaplanUsers.json */; };
+		64D23F141ED65F92005F92F0 /* TestResultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D23F131ED65F92005F92F0 /* TestResultManager.swift */; };
+		64D23F161ED66356005F92F0 /* TestResultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D23F151ED66356005F92F0 /* TestResultService.swift */; };
+		64D23F181ED66749005F92F0 /* ServiceReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D23F171ED66749005F92F0 /* ServiceReport.swift */; };
+		64D23F201ED7DA55005F92F0 /* ReportByStudentResultHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D23F1F1ED7DA55005F92F0 /* ReportByStudentResultHeader.swift */; };
+		64D23F281ED92F73005F92F0 /* GetTestResults4511.json in Resources */ = {isa = PBXBuildFile; fileRef = 64D23F271ED92F73005F92F0 /* GetTestResults4511.json */; };
+		64ECB7391EE953A3006A39A8 /* ReportResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ECB7381EE953A2006A39A8 /* ReportResultTableViewController.swift */; };
+		64F317C91EE8FE3600FB8982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F317C81EE8FE3600FB8982 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		64D23F371ED939E3005F92F0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		0F26702CCB0DCBEC01E8E899 /* Pods-CBANaplanReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBANaplanReport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBANaplanReport/Pods-CBANaplanReport.debug.xcconfig"; sourceTree = "<group>"; };
+		008994B25FEF0C838CCBC3E6 /* Pods-CBANaplanReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBANaplanReport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBANaplanReport/Pods-CBANaplanReport.debug.xcconfig"; sourceTree = "<group>"; };
+		037C68787CE7534DCFD85E6A /* Pods-CBANaplanReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBANaplanReport.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBANaplanReport/Pods-CBANaplanReport.release.xcconfig"; sourceTree = "<group>"; };
+		6405CC091EE6728600F7BF46 /* GetTestResults2013.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2013.json; sourceTree = "<group>"; };
+		6405CC0A1EE6728600F7BF46 /* GetTestResults2014.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2014.json; sourceTree = "<group>"; };
+		6405CC0B1EE6728600F7BF46 /* GetTestResults2015.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2015.json; sourceTree = "<group>"; };
+		6405CC0C1EE6728600F7BF46 /* GetTestResults2016.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2016.json; sourceTree = "<group>"; };
+		6405CC0D1EE6728600F7BF46 /* GetTestResults2017.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2017.json; sourceTree = "<group>"; };
+		6405CC0E1EE6728600F7BF46 /* GetTestResults2018.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2018.json; sourceTree = "<group>"; };
+		6405CC0F1EE6728600F7BF46 /* GetTestResults2019.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2019.json; sourceTree = "<group>"; };
+		6405CC101EE6728600F7BF46 /* GetTestResults2020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2020.json; sourceTree = "<group>"; };
+		6405CC111EE6728600F7BF46 /* GetTestResults2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2021.json; sourceTree = "<group>"; };
+		6405CC121EE6728600F7BF46 /* GetTestResults2022.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2022.json; sourceTree = "<group>"; };
+		6405CC131EE6728600F7BF46 /* GetTestResults2023.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2023.json; sourceTree = "<group>"; };
+		6405CC141EE6728600F7BF46 /* GetTestResults2024.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2024.json; sourceTree = "<group>"; };
+		6405CC151EE6728600F7BF46 /* GetTestResults2025.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2025.json; sourceTree = "<group>"; };
+		6405CC161EE6728600F7BF46 /* GetTestResults2026.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2026.json; sourceTree = "<group>"; };
+		6405CC171EE6728600F7BF46 /* GetTestResults2027.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2027.json; sourceTree = "<group>"; };
+		6405CC181EE6728600F7BF46 /* GetTestResults2028.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2028.json; sourceTree = "<group>"; };
+		6405CC191EE6728600F7BF46 /* GetTestResults2029.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2029.json; sourceTree = "<group>"; };
+		6405CC1A1EE6728600F7BF46 /* GetTestResults2030.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2030.json; sourceTree = "<group>"; };
+		6405CC1B1EE6728600F7BF46 /* GetTestResults2031.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2031.json; sourceTree = "<group>"; };
+		6405CC1C1EE6728600F7BF46 /* GetTestResults2032.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2032.json; sourceTree = "<group>"; };
+		6405CC1D1EE6728600F7BF46 /* GetTestResults2033.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2033.json; sourceTree = "<group>"; };
+		6405CC1E1EE6728600F7BF46 /* GetTestResults2034.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2034.json; sourceTree = "<group>"; };
+		6405CC1F1EE6728600F7BF46 /* GetTestResults2035.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2035.json; sourceTree = "<group>"; };
+		6405CC201EE6728600F7BF46 /* GetTestResults2036.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2036.json; sourceTree = "<group>"; };
+		6405CC211EE6728600F7BF46 /* GetTestResults2037.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2037.json; sourceTree = "<group>"; };
+		64087D3D1EE2E91E0056EE74 /* DiagnosticsBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiagnosticsBaseViewController.swift; path = controller/DiagnosticsBaseViewController.swift; sourceTree = "<group>"; };
+		64087D3F1EE2F9DA0056EE74 /* NaplanReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaplanReportViewController.swift; path = controller/NaplanReportViewController.swift; sourceTree = "<group>"; };
+		64127E671ED5A50C00E71747 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentTableViewCell.swift; path = view/StudentTableViewCell.swift; sourceTree = "<group>"; };
+		64239C071EDCBC0300E32B4A /* NaplanUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaplanUIView.swift; path = view/NaplanUIView.swift; sourceTree = "<group>"; };
+		6429C86F1ED5013100F3269C /* GetStudents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetStudents.json; sourceTree = "<group>"; };
+		6429C8701ED5013100F3269C /* GetTestResults4510.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults4510.json; sourceTree = "<group>"; };
+		6430916B1EE27B61004E8C92 /* ReportByStudentResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportByStudentResultTableViewCell.swift; path = view/ReportByStudentResultTableViewCell.swift; sourceTree = "<group>"; };
+		64527CCB1EE5112300489D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6469351D1ECD4DF400A6A3F6 /* CBANaplanReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBANaplanReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		646935201ECD4DF400A6A3F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		646935251ECD4DF400A6A3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		646935281ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CBANaplanReport.xcdatamodel; sourceTree = "<group>"; };
 		6469352A1ECD4DF400A6A3F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6469352D1ECD4DF400A6A3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6469352F1ECD4DF400A6A3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		646935361ECD4E0700A6A3F6 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../images/background.png; sourceTree = "<group>"; };
-		64C5BC9E1ED3F834000FBC9E /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardViewController.swift; path = controller/DashboardViewController.swift; sourceTree = "<group>"; };
-		64C5BC9F1ED3F834000FBC9E /* LogonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogonViewController.swift; path = controller/LogonViewController.swift; sourceTree = "<group>"; };
-		64C5BCA01ED3F834000FBC9E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = controller/ViewController.swift; sourceTree = "<group>"; };
-		64C5BCA41ED3F852000FBC9E /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = model/JSON.swift; sourceTree = "<group>"; };
+		6477DB111EE83D1600AA1220 /* Loginphuong.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loginphuong.json; sourceTree = "<group>"; };
+		6477DB131EE8429B00AA1220 /* Loginalice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loginalice.json; sourceTree = "<group>"; };
+		649799431EE59F7F00AB0471 /* NaplanSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaplanSplitViewController.swift; path = controller/NaplanSplitViewController.swift; sourceTree = "<group>"; };
+		64A3B1751EDCF41900D624FB /* GetTestResults1520.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults1520.json; sourceTree = "<group>"; };
+		64A3B1761EDCF41900D624FB /* GetTestResults1521.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults1521.json; sourceTree = "<group>"; };
+		64A3B1771EDCF41900D624FB /* GetTestResults1522.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults1522.json; sourceTree = "<group>"; };
+		64A3B1781EDCF41900D624FB /* GetTestResults1523.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults1523.json; sourceTree = "<group>"; };
+		64A3B1791EDCF41900D624FB /* GetTestResults1524.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults1524.json; sourceTree = "<group>"; };
+		64A3B1AA1EDF922000D624FB /* DiagnosticsByStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiagnosticsByStudentViewController.swift; path = controller/DiagnosticsByStudentViewController.swift; sourceTree = "<group>"; };
+		64A3B1AB1EDF922000D624FB /* DiagnosticsReportBySubjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiagnosticsReportBySubjectViewController.swift; path = controller/DiagnosticsReportBySubjectViewController.swift; sourceTree = "<group>"; };
+		64A3B1AC1EDF922000D624FB /* GradeYearTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradeYearTableViewController.swift; path = controller/GradeYearTableViewController.swift; sourceTree = "<group>"; };
+		64A3B1AD1EDF922000D624FB /* LogonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogonViewController.swift; path = controller/LogonViewController.swift; sourceTree = "<group>"; };
+		64A3B1AF1EDF922000D624FB /* ReportByStudentResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportByStudentResultViewController.swift; path = controller/ReportByStudentResultViewController.swift; sourceTree = "<group>"; };
+		64A3B1B01EDF922000D624FB /* ReportByStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportByStudentViewController.swift; path = controller/ReportByStudentViewController.swift; sourceTree = "<group>"; };
+		64A3B1B11EDF922000D624FB /* ReportBySubjectResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportBySubjectResultTableViewController.swift; path = controller/ReportBySubjectResultTableViewController.swift; sourceTree = "<group>"; };
+		64A3B1B21EDF922000D624FB /* ReportBySubjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportBySubjectViewController.swift; path = controller/ReportBySubjectViewController.swift; sourceTree = "<group>"; };
+		64A3B1B31EDF922000D624FB /* StudentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentListViewController.swift; path = controller/StudentListViewController.swift; sourceTree = "<group>"; };
+		64A3B1B41EDF922000D624FB /* SubjectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubjectTableViewController.swift; path = controller/SubjectTableViewController.swift; sourceTree = "<group>"; };
+		64A3B1C01EDF923A00D624FB /* GradeYearTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradeYearTableViewCell.swift; path = view/GradeYearTableViewCell.swift; sourceTree = "<group>"; };
+		64A3B1C41EDF926600D624FB /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Student.swift; path = model/Student.swift; sourceTree = "<group>"; };
+		64A3B1C51EDF926600D624FB /* StudentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentManager.swift; path = model/StudentManager.swift; sourceTree = "<group>"; };
+		64A3B1C61EDF926600D624FB /* StudentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentService.swift; path = model/StudentService.swift; sourceTree = "<group>"; };
+		64A3B1C71EDF926600D624FB /* TestResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestResult.swift; path = model/TestResult.swift; sourceTree = "<group>"; };
+		64A3B1CE1EE2763E00D624FB /* GetTestResults2010.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2010.json; sourceTree = "<group>"; };
+		64A3B1CF1EE2763E00D624FB /* GetTestResults2011.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2011.json; sourceTree = "<group>"; };
+		64A3B1D01EE2763E00D624FB /* GetTestResults2012.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults2012.json; sourceTree = "<group>"; };
+		64BDB3F01ED9EE3C001F9317 /* SubjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubjectTableViewCell.swift; path = view/SubjectTableViewCell.swift; sourceTree = "<group>"; };
+		64BDB3F31ED9F505001F9317 /* ReportBySubjectResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportBySubjectResultTableViewCell.swift; path = view/ReportBySubjectResultTableViewCell.swift; sourceTree = "<group>"; };
+		64BDB3F81EDBC472001F9317 /* GetTestResults4512.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults4512.json; sourceTree = "<group>"; };
+		64BDB3F91EDBC472001F9317 /* GetTestResults4513.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults4513.json; sourceTree = "<group>"; };
 		64C5BCA51ED3F852000FBC9E /* NaplanUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaplanUser.swift; path = model/NaplanUser.swift; sourceTree = "<group>"; };
 		64C5BCA61ED3F852000FBC9E /* NaplanUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaplanUserManager.swift; path = model/NaplanUserManager.swift; sourceTree = "<group>"; };
 		64C5BCA71ED3F852000FBC9E /* NaplanUserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NaplanUserService.swift; path = model/NaplanUserService.swift; sourceTree = "<group>"; };
-		64C5BCA81ED3F852000FBC9E /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = model/Result.swift; sourceTree = "<group>"; };
 		64C5BCA91ED3F852000FBC9E /* ServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceHelper.swift; path = model/ServiceHelper.swift; sourceTree = "<group>"; };
-		64C5BCAA1ED3F852000FBC9E /* ServiceURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceURLs.swift; path = model/ServiceURLs.swift; sourceTree = "<group>"; };
-		64E84C3D1ED40117000677F1 /* GetNaplanUsers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetNaplanUsers.json; sourceTree = "<group>"; };
+		64D23F131ED65F92005F92F0 /* TestResultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestResultManager.swift; path = model/TestResultManager.swift; sourceTree = "<group>"; };
+		64D23F151ED66356005F92F0 /* TestResultService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestResultService.swift; path = model/TestResultService.swift; sourceTree = "<group>"; };
+		64D23F171ED66749005F92F0 /* ServiceReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceReport.swift; path = model/ServiceReport.swift; sourceTree = "<group>"; };
+		64D23F1F1ED7DA55005F92F0 /* ReportByStudentResultHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportByStudentResultHeader.swift; path = view/ReportByStudentResultHeader.swift; sourceTree = "<group>"; };
+		64D23F271ED92F73005F92F0 /* GetTestResults4511.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTestResults4511.json; sourceTree = "<group>"; };
+		64ECB7381EE953A2006A39A8 /* ReportResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportResultTableViewController.swift; path = controller/ReportResultTableViewController.swift; sourceTree = "<group>"; };
+		64F317C81EE8FE3600FB8982 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		99B8C0FCF6F95A6095D3C4B4 /* Pods_CBANaplanReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBANaplanReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B99A90A79B47126EBB55C814 /* Pods-CBANaplanReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBANaplanReport.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBANaplanReport/Pods-CBANaplanReport.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +197,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BCE8D549DFC3F8C54739B8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				008994B25FEF0C838CCBC3E6 /* Pods-CBANaplanReport.debug.xcconfig */,
+				037C68787CE7534DCFD85E6A /* Pods-CBANaplanReport.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		51417547527A290E79EA28A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +219,8 @@
 			children = (
 				6469351F1ECD4DF400A6A3F6 /* CBANaplanReport */,
 				6469351E1ECD4DF400A6A3F6 /* Products */,
-				92D24FAD17D10494137F79CE /* Pods */,
 				51417547527A290E79EA28A5 /* Frameworks */,
+				0BCE8D549DFC3F8C54739B8D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,35 +235,31 @@
 		6469351F1ECD4DF400A6A3F6 /* CBANaplanReport */ = {
 			isa = PBXGroup;
 			children = (
+				64FEDCE21ED481BD00D2CAD7 /* view */,
 				64E84C431ED4040A000677F1 /* support */,
 				64E84C3C1ED40117000677F1 /* MockResponses */,
 				64C5BC8D1ED3EE81000FBC9E /* Controller */,
 				64C5BC7C1ED3E44B000FBC9E /* Model */,
-				646935351ECD4DFC00A6A3F6 /* images */,
 				6469352A1ECD4DF400A6A3F6 /* Assets.xcassets */,
 				646935271ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodeld */,
 			);
 			path = CBANaplanReport;
 			sourceTree = "<group>";
 		};
-		646935351ECD4DFC00A6A3F6 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				646935361ECD4E0700A6A3F6 /* background.png */,
-			);
-			name = images;
-			sourceTree = "<group>";
-		};
 		64C5BC7C1ED3E44B000FBC9E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				64C5BCA41ED3F852000FBC9E /* JSON.swift */,
+				64A3B1C41EDF926600D624FB /* Student.swift */,
+				64A3B1C51EDF926600D624FB /* StudentManager.swift */,
+				64A3B1C61EDF926600D624FB /* StudentService.swift */,
+				64A3B1C71EDF926600D624FB /* TestResult.swift */,
 				64C5BCA51ED3F852000FBC9E /* NaplanUser.swift */,
 				64C5BCA61ED3F852000FBC9E /* NaplanUserManager.swift */,
 				64C5BCA71ED3F852000FBC9E /* NaplanUserService.swift */,
-				64C5BCA81ED3F852000FBC9E /* Result.swift */,
 				64C5BCA91ED3F852000FBC9E /* ServiceHelper.swift */,
-				64C5BCAA1ED3F852000FBC9E /* ServiceURLs.swift */,
+				64D23F131ED65F92005F92F0 /* TestResultManager.swift */,
+				64D23F151ED66356005F92F0 /* TestResultService.swift */,
+				64D23F171ED66749005F92F0 /* ServiceReport.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -129,9 +267,20 @@
 		64C5BC8D1ED3EE81000FBC9E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				64C5BC9E1ED3F834000FBC9E /* DashboardViewController.swift */,
-				64C5BC9F1ED3F834000FBC9E /* LogonViewController.swift */,
-				64C5BCA01ED3F834000FBC9E /* ViewController.swift */,
+				64087D3D1EE2E91E0056EE74 /* DiagnosticsBaseViewController.swift */,
+				64A3B1AA1EDF922000D624FB /* DiagnosticsByStudentViewController.swift */,
+				64A3B1AB1EDF922000D624FB /* DiagnosticsReportBySubjectViewController.swift */,
+				64A3B1AC1EDF922000D624FB /* GradeYearTableViewController.swift */,
+				64A3B1AD1EDF922000D624FB /* LogonViewController.swift */,
+				64A3B1AF1EDF922000D624FB /* ReportByStudentResultViewController.swift */,
+				64A3B1B01EDF922000D624FB /* ReportByStudentViewController.swift */,
+				64A3B1B11EDF922000D624FB /* ReportBySubjectResultTableViewController.swift */,
+				64A3B1B21EDF922000D624FB /* ReportBySubjectViewController.swift */,
+				64A3B1B31EDF922000D624FB /* StudentListViewController.swift */,
+				64A3B1B41EDF922000D624FB /* SubjectTableViewController.swift */,
+				64087D3F1EE2F9DA0056EE74 /* NaplanReportViewController.swift */,
+				649799431EE59F7F00AB0471 /* NaplanSplitViewController.swift */,
+				64ECB7381EE953A2006A39A8 /* ReportResultTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -139,7 +288,46 @@
 		64E84C3C1ED40117000677F1 /* MockResponses */ = {
 			isa = PBXGroup;
 			children = (
-				64E84C3D1ED40117000677F1 /* GetNaplanUsers.json */,
+				6405CC091EE6728600F7BF46 /* GetTestResults2013.json */,
+				6405CC0A1EE6728600F7BF46 /* GetTestResults2014.json */,
+				6405CC0B1EE6728600F7BF46 /* GetTestResults2015.json */,
+				6405CC0C1EE6728600F7BF46 /* GetTestResults2016.json */,
+				6405CC0D1EE6728600F7BF46 /* GetTestResults2017.json */,
+				6405CC0E1EE6728600F7BF46 /* GetTestResults2018.json */,
+				6405CC0F1EE6728600F7BF46 /* GetTestResults2019.json */,
+				6405CC101EE6728600F7BF46 /* GetTestResults2020.json */,
+				6405CC111EE6728600F7BF46 /* GetTestResults2021.json */,
+				6405CC121EE6728600F7BF46 /* GetTestResults2022.json */,
+				6405CC131EE6728600F7BF46 /* GetTestResults2023.json */,
+				6405CC141EE6728600F7BF46 /* GetTestResults2024.json */,
+				6405CC151EE6728600F7BF46 /* GetTestResults2025.json */,
+				6405CC161EE6728600F7BF46 /* GetTestResults2026.json */,
+				6405CC171EE6728600F7BF46 /* GetTestResults2027.json */,
+				6405CC181EE6728600F7BF46 /* GetTestResults2028.json */,
+				6405CC191EE6728600F7BF46 /* GetTestResults2029.json */,
+				6405CC1A1EE6728600F7BF46 /* GetTestResults2030.json */,
+				6405CC1B1EE6728600F7BF46 /* GetTestResults2031.json */,
+				6405CC1C1EE6728600F7BF46 /* GetTestResults2032.json */,
+				6405CC1D1EE6728600F7BF46 /* GetTestResults2033.json */,
+				6405CC1E1EE6728600F7BF46 /* GetTestResults2034.json */,
+				6405CC1F1EE6728600F7BF46 /* GetTestResults2035.json */,
+				6405CC201EE6728600F7BF46 /* GetTestResults2036.json */,
+				6405CC211EE6728600F7BF46 /* GetTestResults2037.json */,
+				64A3B1CE1EE2763E00D624FB /* GetTestResults2010.json */,
+				64A3B1CF1EE2763E00D624FB /* GetTestResults2011.json */,
+				64A3B1D01EE2763E00D624FB /* GetTestResults2012.json */,
+				64A3B1751EDCF41900D624FB /* GetTestResults1520.json */,
+				64A3B1761EDCF41900D624FB /* GetTestResults1521.json */,
+				64A3B1771EDCF41900D624FB /* GetTestResults1522.json */,
+				64A3B1781EDCF41900D624FB /* GetTestResults1523.json */,
+				64A3B1791EDCF41900D624FB /* GetTestResults1524.json */,
+				64BDB3F81EDBC472001F9317 /* GetTestResults4512.json */,
+				64BDB3F91EDBC472001F9317 /* GetTestResults4513.json */,
+				64D23F271ED92F73005F92F0 /* GetTestResults4511.json */,
+				6429C86F1ED5013100F3269C /* GetStudents.json */,
+				6429C8701ED5013100F3269C /* GetTestResults4510.json */,
+				6477DB111EE83D1600AA1220 /* Loginphuong.json */,
+				6477DB131EE8429B00AA1220 /* Loginalice.json */,
 			);
 			path = MockResponses;
 			sourceTree = "<group>";
@@ -147,21 +335,26 @@
 		64E84C431ED4040A000677F1 /* support */ = {
 			isa = PBXGroup;
 			children = (
+				64F317C81EE8FE3600FB8982 /* Main.storyboard */,
 				646935201ECD4DF400A6A3F6 /* AppDelegate.swift */,
-				646935241ECD4DF400A6A3F6 /* Main.storyboard */,
-				6469352C1ECD4DF400A6A3F6 /* LaunchScreen.storyboard */,
 				6469352F1ECD4DF400A6A3F6 /* Info.plist */,
+				64527CCA1EE5112300489D7B /* Launch Screen.storyboard */,
 			);
 			name = support;
 			sourceTree = "<group>";
 		};
-		92D24FAD17D10494137F79CE /* Pods */ = {
+		64FEDCE21ED481BD00D2CAD7 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				0F26702CCB0DCBEC01E8E899 /* Pods-CBANaplanReport.debug.xcconfig */,
-				B99A90A79B47126EBB55C814 /* Pods-CBANaplanReport.release.xcconfig */,
+				6430916B1EE27B61004E8C92 /* ReportByStudentResultTableViewCell.swift */,
+				64A3B1C01EDF923A00D624FB /* GradeYearTableViewCell.swift */,
+				64127E671ED5A50C00E71747 /* StudentTableViewCell.swift */,
+				64D23F1F1ED7DA55005F92F0 /* ReportByStudentResultHeader.swift */,
+				64BDB3F01ED9EE3C001F9317 /* SubjectTableViewCell.swift */,
+				64BDB3F31ED9F505001F9317 /* ReportBySubjectResultTableViewCell.swift */,
+				64239C071EDCBC0300E32B4A /* NaplanUIView.swift */,
 			);
-			name = Pods;
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +370,7 @@
 				6469351B1ECD4DF400A6A3F6 /* Resources */,
 				86E68EA532480A93233B8D1A /* [CP] Embed Pods Frameworks */,
 				1B5D2E539CD45C58C185A4DE /* [CP] Copy Pods Resources */,
+				64D23F371ED939E3005F92F0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,11 +421,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6469352E1ECD4DF400A6A3F6 /* LaunchScreen.storyboard in Resources */,
-				646935371ECD4E0700A6A3F6 /* background.png in Resources */,
-				64E84C401ED40117000677F1 /* GetNaplanUsers.json in Resources */,
+				6405CC2E1EE6728600F7BF46 /* GetTestResults2025.json in Resources */,
+				6429C8711ED5013100F3269C /* GetStudents.json in Resources */,
+				64BDB3FA1EDBC472001F9317 /* GetTestResults4512.json in Resources */,
+				6405CC391EE6728600F7BF46 /* GetTestResults2036.json in Resources */,
+				6477DB141EE8429B00AA1220 /* Loginalice.json in Resources */,
+				64527CCC1EE5112300489D7B /* Launch Screen.storyboard in Resources */,
+				6405CC221EE6728600F7BF46 /* GetTestResults2013.json in Resources */,
+				6405CC311EE6728600F7BF46 /* GetTestResults2028.json in Resources */,
+				6405CC2C1EE6728600F7BF46 /* GetTestResults2023.json in Resources */,
+				64A3B17A1EDCF41900D624FB /* GetTestResults1520.json in Resources */,
+				6477DB121EE83D1600AA1220 /* Loginphuong.json in Resources */,
+				6405CC241EE6728600F7BF46 /* GetTestResults2015.json in Resources */,
+				64A3B1D21EE2763E00D624FB /* GetTestResults2011.json in Resources */,
+				64F317C91EE8FE3600FB8982 /* Main.storyboard in Resources */,
+				6405CC231EE6728600F7BF46 /* GetTestResults2014.json in Resources */,
+				64A3B1D11EE2763E00D624FB /* GetTestResults2010.json in Resources */,
+				6405CC2D1EE6728600F7BF46 /* GetTestResults2024.json in Resources */,
+				64A3B17C1EDCF41900D624FB /* GetTestResults1522.json in Resources */,
+				6429C8721ED5013100F3269C /* GetTestResults4510.json in Resources */,
+				64A3B1D31EE2763E00D624FB /* GetTestResults2012.json in Resources */,
+				64D23F281ED92F73005F92F0 /* GetTestResults4511.json in Resources */,
+				6405CC361EE6728600F7BF46 /* GetTestResults2033.json in Resources */,
+				6405CC351EE6728600F7BF46 /* GetTestResults2032.json in Resources */,
+				6405CC291EE6728600F7BF46 /* GetTestResults2020.json in Resources */,
+				6405CC2B1EE6728600F7BF46 /* GetTestResults2022.json in Resources */,
+				64BDB3FB1EDBC472001F9317 /* GetTestResults4513.json in Resources */,
 				6469352B1ECD4DF400A6A3F6 /* Assets.xcassets in Resources */,
-				646935261ECD4DF400A6A3F6 /* Main.storyboard in Resources */,
+				64A3B17B1EDCF41900D624FB /* GetTestResults1521.json in Resources */,
+				6405CC251EE6728600F7BF46 /* GetTestResults2016.json in Resources */,
+				6405CC3A1EE6728600F7BF46 /* GetTestResults2037.json in Resources */,
+				6405CC2F1EE6728600F7BF46 /* GetTestResults2026.json in Resources */,
+				64A3B17E1EDCF41900D624FB /* GetTestResults1524.json in Resources */,
+				6405CC321EE6728600F7BF46 /* GetTestResults2029.json in Resources */,
+				6405CC371EE6728600F7BF46 /* GetTestResults2034.json in Resources */,
+				6405CC341EE6728600F7BF46 /* GetTestResults2031.json in Resources */,
+				64A3B17D1EDCF41900D624FB /* GetTestResults1523.json in Resources */,
+				6405CC331EE6728600F7BF46 /* GetTestResults2030.json in Resources */,
+				6405CC2A1EE6728600F7BF46 /* GetTestResults2021.json in Resources */,
+				6405CC381EE6728600F7BF46 /* GetTestResults2035.json in Resources */,
+				6405CC301EE6728600F7BF46 /* GetTestResults2027.json in Resources */,
+				6405CC281EE6728600F7BF46 /* GetTestResults2019.json in Resources */,
+				6405CC261EE6728600F7BF46 /* GetTestResults2017.json in Resources */,
+				6405CC271EE6728600F7BF46 /* GetTestResults2018.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,38 +522,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A3B1BF1EDF922000D624FB /* SubjectTableViewController.swift in Sources */,
+				64A3B1BE1EDF922000D624FB /* StudentListViewController.swift in Sources */,
+				64A3B1C21EDF923A00D624FB /* GradeYearTableViewCell.swift in Sources */,
+				6430916C1EE27B61004E8C92 /* ReportByStudentResultTableViewCell.swift in Sources */,
 				64C5BCAD1ED3F852000FBC9E /* NaplanUserManager.swift in Sources */,
-				64C5BCAB1ED3F852000FBC9E /* JSON.swift in Sources */,
+				64D23F201ED7DA55005F92F0 /* ReportByStudentResultHeader.swift in Sources */,
 				646935291ECD4DF400A6A3F6 /* CBANaplanReport.xcdatamodeld in Sources */,
-				64C5BCA21ED3F834000FBC9E /* LogonViewController.swift in Sources */,
+				64A3B1BA1EDF922000D624FB /* ReportByStudentResultViewController.swift in Sources */,
+				64BDB3F11ED9EE3C001F9317 /* SubjectTableViewCell.swift in Sources */,
+				64127E681ED5A50C00E71747 /* StudentTableViewCell.swift in Sources */,
+				64239C081EDCBC0300E32B4A /* NaplanUIView.swift in Sources */,
+				64A3B1B51EDF922000D624FB /* DiagnosticsByStudentViewController.swift in Sources */,
+				64A3B1BD1EDF922000D624FB /* ReportBySubjectViewController.swift in Sources */,
+				64A3B1B71EDF922000D624FB /* GradeYearTableViewController.swift in Sources */,
+				64BDB3F41ED9F505001F9317 /* ReportBySubjectResultTableViewCell.swift in Sources */,
+				64087D3E1EE2E91E0056EE74 /* DiagnosticsBaseViewController.swift in Sources */,
 				64C5BCAC1ED3F852000FBC9E /* NaplanUser.swift in Sources */,
-				64C5BCA31ED3F834000FBC9E /* ViewController.swift in Sources */,
+				64A3B1CB1EDF926600D624FB /* TestResult.swift in Sources */,
+				64A3B1B61EDF922000D624FB /* DiagnosticsReportBySubjectViewController.swift in Sources */,
+				64A3B1CA1EDF926600D624FB /* StudentService.swift in Sources */,
+				64A3B1BB1EDF922000D624FB /* ReportByStudentViewController.swift in Sources */,
+				64D23F181ED66749005F92F0 /* ServiceReport.swift in Sources */,
 				646935211ECD4DF400A6A3F6 /* AppDelegate.swift in Sources */,
+				64D23F141ED65F92005F92F0 /* TestResultManager.swift in Sources */,
+				649799441EE59F7F00AB0471 /* NaplanSplitViewController.swift in Sources */,
+				64A3B1C91EDF926600D624FB /* StudentManager.swift in Sources */,
 				64C5BCAE1ED3F852000FBC9E /* NaplanUserService.swift in Sources */,
-				64C5BCA11ED3F834000FBC9E /* DashboardViewController.swift in Sources */,
-				64C5BCAF1ED3F852000FBC9E /* Result.swift in Sources */,
+				64A3B1C81EDF926600D624FB /* Student.swift in Sources */,
+				64A3B1B81EDF922000D624FB /* LogonViewController.swift in Sources */,
+				64A3B1BC1EDF922000D624FB /* ReportBySubjectResultTableViewController.swift in Sources */,
+				64ECB7391EE953A3006A39A8 /* ReportResultTableViewController.swift in Sources */,
+				64D23F161ED66356005F92F0 /* TestResultService.swift in Sources */,
+				64087D401EE2F9DA0056EE74 /* NaplanReportViewController.swift in Sources */,
 				64C5BCB01ED3F852000FBC9E /* ServiceHelper.swift in Sources */,
-				64C5BCB11ED3F852000FBC9E /* ServiceURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		646935241ECD4DF400A6A3F6 /* Main.storyboard */ = {
+		64527CCA1EE5112300489D7B /* Launch Screen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				646935251ECD4DF400A6A3F6 /* Base */,
+				64527CCB1EE5112300489D7B /* Base */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6469352C1ECD4DF400A6A3F6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6469352D1ECD4DF400A6A3F6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = "Launch Screen.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -348,7 +594,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thi Bich Phuong Ngo (SNWZXS2C3L)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -367,10 +613,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos10.2;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -398,7 +644,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thi Bich Phuong Ngo (SNWZXS2C3L)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -411,9 +657,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos10.2;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -422,28 +668,38 @@
 		};
 		646935331ECD4DF400A6A3F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F26702CCB0DCBEC01E8E899 /* Pods-CBANaplanReport.debug.xcconfig */;
+			baseConfigurationReference = 008994B25FEF0C838CCBC3E6 /* Pods-CBANaplanReport.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4JKMHZJJZP;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CBANaplanReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ppben.CBANaplanReport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		646935341ECD4DF400A6A3F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B99A90A79B47126EBB55C814 /* Pods-CBANaplanReport.release.xcconfig */;
+			baseConfigurationReference = 037C68787CE7534DCFD85E6A /* Pods-CBANaplanReport.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4JKMHZJJZP;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CBANaplanReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ppben.CBANaplanReport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

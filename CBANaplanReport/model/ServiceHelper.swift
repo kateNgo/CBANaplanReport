@@ -1,14 +1,22 @@
 //
 //  ServiceHelper.swift
-//  IntroWorkshop
-//
-//  Created by Ken Ko on 23/09/2016.
-//  Copyright © 2016 Commonwealth Bank of Australia. All rights reserved.
-//
+// This is copied and modified from
+// https://github.com/cweatureapps/IntroWorkshop.iOS
 
 import Foundation
-import Alamofire
 
+typealias JSON = [String: Any]
+
+enum Result<T, Error: Swift.Error> {
+    case success(T)
+    case failure(Error)
+}
+
+enum ServiceURLs: String {
+    case login = "Login.json"
+    case getTestResults = "GetTestResults.json"
+    case getStudents = "GetStudents.json"
+}
 protocol ServiceHelper {
     typealias RequestCompletion = (Result<JSON, ServiceError>) -> Void
 
@@ -23,39 +31,16 @@ extension ServiceHelper {
     }
 }
 
-
 /// Factory that returns the ServiceHelper to use.
 class ServiceHelperFactory {
     static func makeServiceHelper() -> ServiceHelper  {
-        return UserDefaults.standard.bool(forKey: "stubmode") ? StubServiceHelper() : NetworkServiceHelper()
+        return StubServiceHelper()
     }
 }
 
 enum ServiceError: Error {
     case general
     case loadingFailed(String)
-}
-
-/// Service Helper class which makes a network request.
-class NetworkServiceHelper: ServiceHelper {
-
-    func request(urlString: String, param: String?, completion: @escaping ServiceHelper.RequestCompletion) {
-        let adjustedUrlString = param == nil ? urlString : self.adjustUrl(urlString: urlString, withParam: param!)
-        let headers = ["Content-Type": "application/json"]
-        Alamofire.request(adjustedUrlString, encoding: JSONEncoding.default, headers: headers)
-         .responseJSON { response in
-            switch response.result {
-            case .success(let value):
-                 if let json = value as? JSON {
-                    completion(.success(json))
-                 } else {
-                    completion(.failure(ServiceError.general))
-                 }
-            case .failure:
-                completion(.failure(ServiceError.general))
-            }
-         }
-    }
 }
 
 /// Service Helper which loads JSON stub response from a file.
@@ -68,11 +53,10 @@ class StubServiceHelper: ServiceHelper {
     /// Loads a stub JSON file asynchronously from disk as if it were a backend response.
     /// Filename is based on convention, should be named the same as last part after the slash.
     func request(urlString: String, param: String?, completion: @escaping ServiceHelper.RequestCompletion) {
-
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Constants.delay) {
             do {
                 let adjustedUrlString = param == nil ? urlString : self.adjustUrl(urlString: urlString, withParam: param!)
-                let fileName = self.fileNameFrom(urlString: adjustedUrlString)
+                let fileName = adjustedUrlString
                 let response = try self.loadJSONDictionary(from: fileName)
                 completion(.success(response))
             } catch (let error) {
@@ -94,12 +78,5 @@ class StubServiceHelper: ServiceHelper {
         } else {
             throw ServiceError.loadingFailed("Could not load or parse the file")
         }
-    }
-
-    /// Finds the filename of the stub file, assuming it is part after the last slash
-    private func fileNameFrom(urlString: String) -> String {
-        let lastSlashRange = urlString.range(of: "/", options: String.CompareOptions.backwards)
-        let index = urlString.index(lastSlashRange!.lowerBound, offsetBy: 1)
-        return urlString.substring(from: index)
     }
 }
